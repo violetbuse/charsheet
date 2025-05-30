@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Violet's D&D Character Sheet",
+    "name": "V&D",
     "slug": "charsheet",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,7 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/icon.png"
     },
     "plugins": [
       "expo-router",
@@ -29,7 +29,7 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#cb2d2c"
+          "backgroundColor": "#ce2424"
         }
       ],
       "expo-sqlite"

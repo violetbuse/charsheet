@@ -8,6 +8,13 @@
       "when": 1748501897283,
       "tag": "0000_black_tinkerer",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1748517334376,
+      "tag": "0001_next_santa_claus",
+      "breakpoints": true
     }
   ]
 }

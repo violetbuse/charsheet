@@ -1,14 +1,21 @@
-import { Link, Stack } from "expo-router";
+import { NewCharacterButton } from "@/components/new_character";
+import { useCharacters } from "@/hooks/data/useCharacters";
+import { Stack } from "expo-router";
 import React from "react";
 import { Text, View } from "react-native";
 
 export default function HomePage() {
+
+    const characters = useCharacters()
+
+    console.log(characters)
+
     return (
         <>
             <Stack.Screen options={{ title: 'Characters' }} />
             <View>
-                <Text style={{ color: 'white' }}>Hello World</Text>
-                <Link href="/characters" style={{ color: 'white' }}>Characters</Link>
+                <Text>Hello World</Text>
+                <NewCharacterButton />
             </View>
         </>
     )
